@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+  
+}
+body{
+  
+background: rgb(206,206,215);
+background: linear-gradient(90deg, rgba(206,206,215,1) 0%, rgba(253,253,254,1) 35%, rgba(0,212,255,1) 100%);
+}
+form{
+    width: 25%;
+    background-color: white;
+    padding:50px;
+     border-radius: 20px; 
+     margin-top: 150px;
+
+}
+.btn-primary{
+    width:100%;
+    border: none;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+
+
+}
+h4{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.form-label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#btn{
+font-size: 30px;
+font-weight: bold;
+background-color: black;
+margin-right: 10px;
+color: white;
+
+}
+#btn1{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: black;
+    margin-right: 10px;
+    color: white;
+    
+    }
+#btn:hover{
+    color:aqua;
+    background-color:rgb(72, 9, 92);
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+@media only screen and (max-width:600px){
+    form{
+        width: 100% !important;
+    }
+}
